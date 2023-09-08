@@ -5,7 +5,7 @@
 [![issues][issues]][issues-url]
 [![license][license]][license-url]
 
-Developing WordPress theme with Tailwind CSS.
+WordPress Theme Development Using Tailwind CSS.
 
 ## Requirements
 
