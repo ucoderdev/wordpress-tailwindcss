@@ -1,41 +1,40 @@
 {
-    "name": "wordpress-tailwindcss",
-    "version": "1.0.0",
-    "description": "Tailwindcss + Webpack + Worpdress theme",
-    "author": "ULUGBEK NURIDDINOV <hello@ucoder.dev>",
-    "license": "MIT",
-    "keywords": [
-      "tailwindcss",
-      "webpack",
-      "worpdress"
-    ],
-    "scripts": {
-      "build": "webpack --mode=production --node-env=production",
-      "watch": "webpack --watch --mode=development"
-    },
-    "dependencies": {
-      "remixicon": "^3.5.0"
-    },
-    "devDependencies": {
-      "@babel/core": "^7.22.15",
-      "@babel/preset-env": "^7.22.15",
-      "autoprefixer": "^10.4.15",
-      "babel-loader": "^9.1.3",
-      "css-loader": "^6.8.1",
-      "cssnano": "^6.0.1",
-      "file-loader": "^6.2.0",
-      "mini-css-extract-plugin": "^2.7.6",
-      "postcss": "^8.4.29",
-      "postcss-loader": "^7.3.3",
-      "postcss-preset-env": "^9.1.3",
-      "sass": "^1.66.1",
-      "sass-loader": "^13.3.2",
-      "style-loader": "^3.3.3",
-      "svg-loader": "^0.0.2",
-      "tailwindcss": "^3.3.3",
-      "url-loader": "^4.1.1",
-      "webpack": "^5.88.2",
-      "webpack-cli": "^5.1.4"
-    }
+  "name": "wordpress-tailwindcss",
+  "version": "1.0.0",
+  "description": "Tailwindcss + Webpack + Worpdress theme",
+  "author": "Ulugbek Nuriddinov <hello@ucoder.dev>",
+  "license": "MIT",
+  "keywords": [
+    "tailwindcss",
+    "webpack",
+    "worpdress"
+  ],
+  "scripts": {
+    "build": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch --mode=development"
+  },
+  "dependencies": {
+    "remixicon": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "autoprefixer": "^10.4.19",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^7.1.1",
+    "cssnano": "^6.1.2",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "postcss": "^8.4.38",
+    "postcss-loader": "^8.1.1",
+    "postcss-preset-env": "^9.5.6",
+    "sass": "^1.75.0",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^4.0.0",
+    "svg-loader": "^0.0.2",
+    "tailwindcss": "^3.4.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
   }
-  
+}
